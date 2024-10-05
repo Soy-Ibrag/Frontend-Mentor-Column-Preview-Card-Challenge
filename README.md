@@ -4,7 +4,7 @@
 This project is a solution to the Frontend Mentor 3 Column Preview Card Challenge, which focuses on building a simple, responsive 3-column card layout using HTML and CSS. I developed the layout using Flexbox for alignment and responsiveness, while applying the BEM (Block Element Modifier) methodology for organizing my CSS. 
 
 ## 🚀 Live Demo
-You can check out the live version of the project [here](#link-to-live-site).
+You can check out the live version of the project [here](https://soy-ibrag.github.io/Frontend-Mentor-Column-Preview-Card-Challenge/).
 
 ## 🖼️ Project Screenshot
 ![Screenshot of the project](final%20product.png)
