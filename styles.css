@@ -1,0 +1,169 @@
+/* Josh Carneu's CSS Reset*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+  
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+  
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+img{
+    padding-bottom: 3.75rem;
+}
+  
+input, button, textarea, select {
+    font: inherit;
+}
+  
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
+    color: hsl(0, 0%, 95%);
+    font-size: 4rem;
+    padding-bottom: 3.75rem;
+    font-weight: 700;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1.5rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    padding-bottom: 6rem;
+}
+  
+#root, #__next {
+    isolation: isolate;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container{
+    display: flex;
+    padding-inline: 20rem;
+}
+
+.card{
+    max-width: 28.5rem;
+    padding: 3.75rem;
+}
+
+.card-yellow{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 0px 0px 7px;
+}
+
+.card-blue{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-green{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 7px 7px 0px;
+}
+
+.button{
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 95%);
+    border: 0;
+    font-family: "Lexend Deca", sans-serif;
+    padding: 1.2rem 2.5rem 1.2rem 2.5rem;
+    font-size: 1.5rem;
+}
+
+.button-yellow{
+    color: hsl(31, 77%, 52%);
+}
+
+.button-blue{
+    color: hsl(184, 100%, 22%);
+}
+
+.button-green{
+    color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 1130px){
+    .container{
+        padding-inline: 10rem;
+    }
+
+    .card{
+        padding: 2rem;
+        max-width: 30rem;
+    }
+
+    p{
+        padding-bottom: 2.5rem;
+    }
+
+    img{
+        padding-bottom: 2rem;
+    }
+
+    h1{
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width: 375px){
+    .container{
+        flex-direction: column;
+        padding-inline: 2rem;
+        padding-top: 7rem;
+    }
+
+    .card{
+        max-width: 35rem;
+        padding: 5rem;
+    }
+
+    p{
+        padding-bottom: 2rem;
+    }
+
+    .card-yellow{
+        border-radius: 7px 7px 0px 0px;
+    }
+
+    .card-green{
+        border-radius: 0px 0px 7px 7px;
+    }
+
+    img{
+        padding-bottom: 3rem;
+    }
+
+    h1{
+        padding-bottom: 3rem;
+    }
+}
